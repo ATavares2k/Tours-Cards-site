@@ -2,7 +2,7 @@ export default function About_Us() {
   return (
     <div className="flex flex-col justify-center items-center h-full border-4 border-[#294164]">
       <h1 className="mb-5 font-bold text-4xl text-[#294164]">ABOUT US</h1>
-      <p className="font-thin text-justify text-xl max-w-xl leading-7">
+      <p className="font-thin text-justify text-xl max-w-xl leading-6">
         We believe in discovering the world one step at a time. From the misty
         cliffs of Valoria to the hidden grottos of Azure Springs, our passion
         lies in crafting unforgettable journeys for explorers of all kinds.

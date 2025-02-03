@@ -1,7 +1,5 @@
 import Card from "@/app/_components/Card";
 
-export const revalidate = 0;
-
 export default async function ToursCards() {
   const res = await fetch(`http://localhost:8000/cards`);
   const data = await res.json();

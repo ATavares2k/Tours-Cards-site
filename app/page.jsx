@@ -12,7 +12,7 @@ export default function Home() {
           <span className="font-medium ">Safe trip</span> on our Website!
         </p>
       </div>
-      <div className="mt-5 font-thin  px-2 underline-offset-[6px] pb-2 pt-1 rounded-lg underline decoration-1 text-[#294164] text-[20px] drop-shadow-md bg-white ">
+      <div className="mt-5 font-thin  px-2  pb-2 pt-1 rounded-lg decoration-1 text-[#294164] text-[20px] drop-shadow-md bg-white ">
         <Link href="/tours">Check our Tours</Link>
       </div>
     </main>
