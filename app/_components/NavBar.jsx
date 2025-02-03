@@ -4,11 +4,11 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className="px-8 py-5">
-      <div className="fixed top-0 left-0 w-full z-50 bg-white border-b backdrop-blur-lg bg-opacity-80">
+    <div className="px-8 py-5">
+      <div className="fixed top-0 left-0 w-full z-50 bg-white border-b">
         <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8 ">
           <div className="relative flex h-16 justify-between">
-            <div className="flex flex-1 items-stretch justify-start">
+            <div className="flex flex-1 justify-start">
               <Link className="flex flex-shrink-0 items-center" href="/">
                 <Image
                   className="block h-12 w-auto"
@@ -40,6 +40,6 @@ export default function NavBar() {
           </div>
         </div>
       </div>
-    </header>
+    </div>
   );
 }
